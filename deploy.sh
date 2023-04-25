@@ -22,4 +22,6 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f https://github.com/hamedmoody/hamedmoody.github.io.git master:deploy
 
+git branch -D deploy
+
 cd -
