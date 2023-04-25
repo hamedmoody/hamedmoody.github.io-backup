@@ -6,7 +6,7 @@ set -e
 # build
 npm run build
 
-sleep 5  # Waits 5 seconds.
+# sleep 5  # Waits 5 seconds.
 
 # navigate into the build output directory
 cd dist
