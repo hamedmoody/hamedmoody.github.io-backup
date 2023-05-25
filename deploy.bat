@@ -1,1 +1,1 @@
-npm run build && cd dist && echo 'hamedmoody.ir' > CNAME && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/hamedmoody/hamedmoody.github.io.git master:deploy && cd -
+npm run build && cd dist && echo hamedmoody.ir > CNAME && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/hamedmoody/hamedmoody.github.io.git master:deploy && cd -
